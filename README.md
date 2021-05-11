@@ -18,6 +18,6 @@ A Laravel environment configured with Docker.
 * Build with `docker-compose build app`;
 * Run with `docker-compose up`;
 * Install composer with `docker-compose exec app composer install`;
-* Generate app key with `docker-compose exec app php artisan generate:key`;
+* Generate app key with `docker-compose exec app php artisan key:generate`;
 * Run migrations with `docker-compose exec app php artisan migrate`;
 * Enjoy! :)
